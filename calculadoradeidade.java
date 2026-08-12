@@ -11,7 +11,7 @@ public class CalculadoraDeIdade {
         System.out.print("Digite seu ano de nascimento:");
         anoDeNascimento=input.nextInt();
         idade=anoatual-anoDeNascimento;
-        System.out.print(idade)
+        System.out.printIn(idade)
         
     }
 }
