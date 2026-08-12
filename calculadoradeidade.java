@@ -10,8 +10,9 @@ public class CalculadoraDeIdade {
         anoatual=input.nextInt();
         System.out.print("Digite seu ano de nascimento:");
         anoDeNascimento=input.nextInt();
-        System.out.print("Digite sua idade atual:");
-        idade=input.nextInt();
+        idade=anoatual-anoDeNascimento;
+        System.out.print(idade)
+        
     }
 }
 
