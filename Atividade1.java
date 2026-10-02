@@ -34,3 +34,21 @@ public static void main (String[] args) {
     System.out.println("Idade:"+idade);
 }
 }
+
+//Atividade 3 (Calculadora de Idade)//
+
+import java.util.Scanner;
+
+class Main{
+
+public static void main (String[] args) {
+    Scanner leitor = new Scanner (System.in);
+    System.out.print("Por gentileza, informe o ano que você nasceu:");
+    int anoDeNascimento = leitor.nextInt();
+    System.out.print("Agora, escreva o ano atual:");
+    int anoAtual = leitor.nextInt();
+    System.out.println("Sua idade aproximada é:");
+    System.out.println(anoAtual - anoDeNascimento);
+}
+}
+
