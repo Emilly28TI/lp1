@@ -52,3 +52,19 @@ public static void main (String[] args) {
 }
 }
 
+//atividade 4 (Média do Aluno IF)//
+
+import java.util.Scanner;
+
+class Main{
+
+public static void main (String[] args) {
+    Scanner leitor = new Scanner (System.in);
+    System.out.print("Informe a primeira nota da unidade:");
+    double N1 = leitor.nextDouble();
+    System.out.print("Agora, informe a segunda nota da unidade:");
+    double N2 = leitor.nextDouble();
+    double media = (N1 + N2)/2;
+    System.out.println("Sua média é:" + media);
+}
+}
