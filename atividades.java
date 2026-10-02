@@ -75,3 +75,30 @@ public static void main (String[] args) {
     }
 }
 }
+
+/*
+
+INCOMPLETO
+    
+atividade 5 (Conversor de Moedas)
+
+
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.util.Scanner;
+
+class Main{
+
+public static void main (String[] args) {
+    Scanner leitor = new Scanner (System.in);
+    System.out.println("Quanto você possui em R$?");
+    long valorEmReais = leitor.nextLong();
+    BigDecimal 1dolar = 5.38
+    System.out.println("Em dólar você possui:"+);
+}
+}
+
+INCOMPLETO
+
+
+/*
